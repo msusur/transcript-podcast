@@ -4,7 +4,8 @@ const ffmpegInstaller = require('@ffmpeg-installer/ffmpeg');
 const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
 
-const fileName = '/Users/mertsusur/Desktop/canli-sistemler-edited.mp3';
+const fileName =
+  '/Users/mertsusur/Downloads/Acik-kaynak-kodlu-projeler-edited.mp3';
 
 ffmpeg.setFfmpegPath(ffmpegInstaller.path);
 
