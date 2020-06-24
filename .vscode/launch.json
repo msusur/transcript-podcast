@@ -8,9 +8,9 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/index.js",
+      "program": "${workspaceFolder}/packages/mp3-to-wav-function/test.js",
       "env": {
-        "GOOGLE_APPLICATION_CREDENTIALS": "/Users/mertsusur/.gcp/podcast-to-text-f45a4bfde041.json"
+        "GOOGLE_APPLICATION_CREDENTIALS": "/Users/mertsusur/.config/gcloud/mertsusur-terraform-admin.json"
       }
     }
   ]
